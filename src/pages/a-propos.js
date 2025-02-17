@@ -8,11 +8,12 @@ import Experience from '../Components/experience';
 import Skills from '../Components/Skills';
 
 import Footer from '../Components/Footer';
+import BannerV2 from '../Components/banner2';
 export default function Propos() {
     return (
         <div >
             <NavBar />
-
+            <BannerV2 />
             <Experience />
             <Skills/>
 

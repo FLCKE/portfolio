@@ -11,7 +11,7 @@ import Skills from '../Components/Skills';
 import Footer from '../Components/Footer';
 export default function Home() {
     return (
-        <div className="App">
+            <div className="App">
             <NavBar />
             <Banner />
             <WorkProcess />

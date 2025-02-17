@@ -6,13 +6,15 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import WorkProcess from '../Components/workprocess';
 
 import Footer from '../Components/Footer';
+import BannerV2 from '../Components/banner2';
+import ContactLayout from '../Components/contact-layout';
 export default function Contact() {
     return (
         <div >
             <NavBar />
-
-
-            <Footer />
+            <BannerV2 />
+            <ContactLayout />
+            <Footer/>
         </div>
     );
 }

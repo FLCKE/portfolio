@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div >
             <NavBar />
             <BannerV2/>
-            <WorkProcess />
+            <WorkProcess limit={30}/>
             
             <Footer />
         </div>

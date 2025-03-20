@@ -14,7 +14,7 @@ export default function Home() {
             <div className="App">
             <NavBar />
             <Banner />
-            <WorkProcess />
+            <WorkProcess limit={4} />
             <Experience />
             <Skills />
             <Footer />

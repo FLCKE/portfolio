@@ -1,8 +1,66 @@
+import { Stack } from "@mui/material";
+import Item from '@mui/material/Stack';
 import { Container } from "react-bootstrap";
 
-export default function WorkProcess() {
+export default function WorkProcess({limit}) {
+    const projects = [
+        {
+            id: 1,
+            title: "E-météo",
+            technologies: ["Angular", "Node.js", "Express.js", "SQLite", "Bootstrap", "api"],
+            description:
+                "Un site web conçu pour afficher des prévisions pour les jours à venir, incluant la température, les précipitations, le vent, et l'humidité.",
+            image: "/assets/météo.jpeg",
+            link: "https://github.com/FLCKE/meteo_app"
+        },
+        {
+            id: 2,
+            title: "E-commerce",
+            technologies: ["PHP", "html", "SQL", "css","javascript"],
+            description:
+                "Une plateforme de commerce en ligne permettant aux utilisateurs d'acheter et de vendre des produits facilement.",
+            image: "/assets/maillot.jpeg",
+            link: "https://github.com/FLCKE/e-commerce-PHP"
+        },
+        {
+            id: 3,
+            title: " Saver|Sauvegarde de fichier en ligne",
+            technologies: ["Angular", "Firebase","SQLite", "Bootstrap","typescript","express","node","html","css"],
+            description:
+                "Une application web permettant aux utilisateurs de gérer leurs fichiers quotidiens avec un système de sauvegarde.",
+            image: "/assets/saver.jpeg",
+            link:"https://github.com/FLCKE/Saver_ptoject"
+        },
+        {
+            id: 4,
+            title: "Quizz game",
+            technologies: ["Javascript", "html", "css"],
+            description:
+                "Une application web permettant aux utilisateurs de gérer leurs tâches quotidiennes avec un système de rappel.",
+            image: "/assets/quizzGame.png",
+            link:"https://github.com/FLCKE/quizzgame"
+        },
+        {
+            id: 5,
+            title: "Application de recrutement",
+            technologies: ["Next.js", "Javascript", "Faker.js", "Ant Design","Redux","DrawIo"],
+            description:
+                "Une application de bureau permettant aux utilisateurs de gérer leur stock de produits.",
+            image: "/assets/recrutment.jpeg",
+            link:"https://github.com/FLCKE/recrutementApp"
+        },
+        {
+            id: 6,
+            title: "Chef Tracker",
+            technologies: ["C#", "WPF", "XAML", "SQLite"],
+            description:
+                "Une application web pour gérer le personnel en cuisine, suivre les horaires, les tâches assignées et les performances.",
+            image: "/assets/Chef-Tracker.png",
+            link: "https://github.com/FLCKE/Chef-tracker"
+        }
+    ];
     return (
-        <section className="">
+        <section className="mb-5">
             <div className="text-center">
                 <h1 className="slide-in-right text-uppercase ">Mes project <span className="text-colored2 ">récents</span> </h1>
                 <div className="d-flex justify-content-between"><div className="border-bottom border-primary w-25"></div><div className="border-bottom border-primary w-25"></div></div>
@@ -12,76 +70,39 @@ export default function WorkProcess() {
             </div>
             <div className="container slideInBottom ">
                 <div className="row row-cols-1 row-cols-lg-2 g-5">
-                    <div className="col items-of-process text-center ">
-                        <div className="process-item px-4 pt-4 rounded-top-4 text-center">
-                            <div className="img-project ">
-                                <img src="/assets/météo.jpeg" className="img-fluid rounded-top-4" />
-                            </div>
-                        </div>
-                        <div className="desc ">
-                            <button  >
-                                <div className="row ">
-                                    <div className="col-10">
-
-                                        <h5>E-météo - Angular, node js , express js SQLite</h5>
-                                        <p>Un site web concu pour afficher des prévisions pour les jours à venir, incluant la température, les précipitations, le vent, et l'humidité</p>
+                    { projects.map((project,i) => {
+                        while ( i < limit) {
+                            return (
+                                <div className="col items-of-process text-center ">
+                                    <div className="process-item px-4 pt-4 rounded-top-4 text-center ">
+                                        <img src={project.image} className="img-fluid  rounded-top-4"  />
                                     </div>
-                                    <div className="col-2 d-flex align-items-center ">
-                                        <i className="bi bi-arrow-left icon-process"></i>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
+                                    <div className="desc ">
+                                        <button onClick={() => window.open(project.link)} className="btn btn-primary rounded-bottom-4">
+                                            <Stack className=" slide-in-right" direction="row"
+                                                spacing={2}
+                                            >
+                                                <Item className="rounded-circle text-center logo-contact ">
+                                                    <div className="">
 
+                                                        <h5>{project.title} - {project.technologies.join(", ")}</h5>
+                                                        <p>{project.description}</p>
+                                                    </div>
 
-                    </div>
-                    <div className="col items-of-process ">
-                        <div className="process-item px-4 pt-4 rounded-top-4">
-                            <div className="img-project ">
-                                <img src="/assets/maillot.jpeg" className="img-fluid rounded-top-4" />
-                            </div>
-                        </div>
-                        <div className="desc ">
-                            <button >
-                                <div className="row ">
-                                    <div className="col-10">
+                                                </Item>
+                                                <Item className="fs-5">
+                                                    <div className=" d-flex align-items-center ">
+                                                        <i className="bi bi-arrow-left icon-process"></i>
+                                                    </div>
+                                                </Item>
+                                            </Stack>
 
-                                        <h5>E-Maillot - PHP Bootstrap CSS JAVASCRIPT C# MySQL</h5>
-                                        <p>Un site de vente de maillots de foot propose un large choix de maillots officiels pour les clubs et les équipes nationales, ainsi que pour des compétitions spécifiques. </p>
-                                    </div>
-                                    <div className="col-2 d-flex align-items-center ">
-                                        <i className="bi bi-arrow-left icon-process"></i>
+                                        </button>
                                     </div>
                                 </div>
-                            </button>
-                        </div>
-
-
-                    </div>
-                    <div className="col items-of-process ">
-                        <div className="process-item px-4 pt-4 rounded-top-4">
-                            <div className="img-project ">
-                                <img src="/assets/saver3.jpeg" className="img-fluid rounded-top-4 " />
-                            </div>
-                        </div>
-                        <div className="desc ">
-                            <button >
-                                <div className="row ">
-                                    <div className="col-10">
-
-                                        <h5>Saver -Typescript Javascript Angular NodeJS ExpressJS Firebase Bootstrap SQLite </h5>
-                                        <p >
-                                            Un site de sauvegarde de fichiers en ligne permet aux utilisateurs de stocker et de protéger leurs données importantes sur le cloud. </p>
-                                    </div>
-                                    <div className="col-2 d-flex align-items-center ">
-                                        <i className="bi bi-arrow-left icon-process"></i>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-
-
-                    </div>
+                            );
+                        }   
+                    })}
 
                 </div>
 

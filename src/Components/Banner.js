@@ -7,7 +7,7 @@ export default function Banner() {
             <Container className="pt-5 ">
                 <Row className="row-cols-1 row-cols-sm-2 g-5 ">
                     <Col className="text-center  order-sm-2">
-                        <img src="/assets/img_profil.jpg" alt="image-principale" className="  border rounded-5  border-3  " style={{width:"75%"}}/>
+                        <img src="/assets/img_profil.jpg" alt="image-principale" className=" border rounded-5  border-3  " style={{width:"75%"}}/>
 
                     </Col>
                     <Col className="align-text-bottom text-sm-start text-center order-sm-1">   

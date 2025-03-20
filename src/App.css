@@ -29,20 +29,23 @@
   font-weight: 600;
 
 }
+
 .bannerClass {
-  background:white;
+  background: white;
   color: #012553;
 }
-.bannerV1{
+
+.bannerV1 {
   background: rgb(2, 0, 36);
-    background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
 
 }
+
 .Navbar,
 .experience,
 .footerSection {
   background: rgb(2, 0, 36);
-  background:linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
 .navBarBtn {
@@ -51,6 +54,7 @@
   border-radius: 15px;
 
 }
+
 .navBarA {
   color: white;
   font-weight: 600;
@@ -119,6 +123,8 @@ Nav.Link:hover {
 
   z-index: 2;
 
+  transform: translateY(0px);
+  transition-duration: 500ms;
 
   .icon-process {
 
@@ -128,10 +134,12 @@ Nav.Link:hover {
 }
 
 .desc {
+  transform: translateY(60px);
   visibility: hidden;
   z-index: 2;
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
   /* margin-top: -25%; */
 }
@@ -140,6 +148,8 @@ Nav.Link:hover {
   background-color: rgb(9 135 183 / 85%);
   color: white;
   border: white 1px solid;
+  width: 90%;
+  ;
 
 }
 
@@ -147,11 +157,11 @@ Nav.Link:hover {
   font-size: xx-large;
 }
 
-
-
-.logo-contact {
-  width: 50px;
-  height: 50px;
+.contactBtnBg {
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+.contactBg {
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
 /* animation  */
@@ -174,7 +184,7 @@ Nav.Link:hover {
 }
 
 .slide-in-left {
-  transform: translateX(-100%);
+  transform: translateX(-100px);
   animation: slideInLeft 1s forwards;
 }
 
@@ -185,7 +195,7 @@ Nav.Link:hover {
 }
 
 .slide-in-right {
-  transform: translateX(100%);
+  transform: translateX(100px);
   animation: slideInRight 2s forwards;
 }
 
@@ -273,21 +283,22 @@ Nav.Link:hover {
     transform: translateX(5px);
   }
 }
+
 @media screen and (min-width: 768px) {
   .title {
     font-size: 5rem;
   }
+
   .subtitle {
     font-size: 1.5rem;
   }
- 
-  
+
+
 }
+
 @media screen and (max-width: 600px) {
   .title {
     font-size: 2rem;
   }
-    
+
 }
-
-

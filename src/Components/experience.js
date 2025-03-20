@@ -13,18 +13,18 @@ export default function Experience() {
                             </div>
                             <div>
                                 <div className="bg-white w-100 rounded-3 ps-5 pt-2 pb-1  my-2 text-dark slideInBottom">
-                                    <h5>2024 - 2024</h5>
-                                    <h4>Developper Full-Stack</h4>
-                                    <p>CREANO (stage)</p>
+                                    <h5>03/2025 - 06/2025</h5>
+                                    <h4>Développeur Full-Stack</h4>
+                                    <p>Direction générale du budget Bénin (stage)</p>
                                 </div>
                                 <div className="bg-white  w-100 rounded-3  ps-5 pt-2 pb-1  my-2 text-dark slideInBottom">
-                                    <h5>2023 - 2023</h5>
-                                    <h4>Developper Full-Stack</h4>
-                                    <p>SABMA DIGITAL (stage)</p>
+                                    <h5>12/2024 - 02/2025</h5>
+                                    <h4>Analyste Développeur front-end</h4>
+                                    <p>REEWAYY (stage)</p>
                                 </div>
                                 <div className="bg-white  w-100 rounded-3  ps-5 pt-2 pb-1  my-2 text-dark slideInBottom">
-                                    <h5>2022 - 2022</h5>
-                                    <h4>Developper Full-Stack</h4>
+                                    <h5>06/2024 - 08/2024</h5>
+                                    <h4>Développeur Full-Stack</h4>
                                     <p>SGTIC SARL (stage)</p>
                                 </div>
                             </div>

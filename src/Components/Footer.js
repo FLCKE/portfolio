@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section className="footerSection text-white mt-5">
+        <section className="footerSection text-white ">
             <div className="text-center">
                 <img src="/i2.png" className="logo2"></img>
             </div>

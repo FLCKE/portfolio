@@ -62,14 +62,14 @@ export default function WorkProcess({limit}) {
     return (
         <section className="mb-5">
             <div className="text-center">
-                <h1 className="slide-in-right text-uppercase ">Mes project <span className="text-colored2 ">récents</span> </h1>
+                <h1 className="slide-in-right text-uppercase ">Mes projets <span className="text-colored2 ">récents</span> </h1>
                 <div className="d-flex justify-content-between"><div className="border-bottom border-primary w-25"></div><div className="border-bottom border-primary w-25"></div></div>
                 <p className="mx-5 slide-in-left">
-                    Voici quelque projets réalisés dans le cadre d'une prise de connaissance ou d'une amélioration de mes connaissances
+                    Voici quelques projets réalisés dans le cadre d'une prise de connaissance ou d'une amélioration de mes connaissances
                 </p>
             </div>
             <div className="container slideInBottom ">
-                <div className="row row-cols-1 row-cols-lg-2 g-5">
+                <div className="row row-cols-1 row-cols-lg-2 gx-md-5 gy-5">
                     { projects.map((project,i) => {
                         while ( i < limit) {
                             return (

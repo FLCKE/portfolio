@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function Banner() {
     
     return (
-        <div className="bannerV1">
+        <div className="bannerV1 ">
             <Container className="pt-5 ">
                 <Row className="row-cols-1 row-cols-sm-2 g-5 ">
                     <Col className="text-center  order-sm-2">
@@ -14,10 +14,10 @@ export default function Banner() {
                         <h3 className="slide-in-left fs-sm-6">Kenett <span className="text-colored">FRANCISCO </span></h3>
                         <h1 className="slide-in-left title"> Developpeur web <span className="text-colored">Full stack</span> </h1>
                         <p className="slideInBottom fs-sm-6 subtitle">
-                            Passionné par le web et les nouvelles technologies, je développe des applications modernes et performantes grâce à une solide base en Front-End (HTML, CSS, JavaScript...) et Back-End (PHP, TypeScript, Golang, Python…)
+                            Passionné par le web et les nouvelles technologies, je conçois des applications modernes et performantes grâce à une solide expertise en Front-End (HTML, CSS, JavaScript…) et Back-End (PHP, TypeScript, Golang, Python…)
                           </p>
                         <div className="slideInBottom fs-sm-6">
-                            <a href="/Moncv.pdf" className="rounded-5  fs-md-4 px-md-4 px-2 slideInLeft bannerBtn ">Télecharger CV
+                            <a href="/Moncv.pdf" className="rounded-5  fs-md-4 px-md-4 px-2 slideInLeft bannerBtn ">Télécharger CV
                                 <i className="bi bi-download mx-2 lideInLeft"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/louis-francisco-9025b0251/" className="rounded-5 mx-2 fs-4 bannerBtn"> <i className="bi bi-linkedin"></i> </a>

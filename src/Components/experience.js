@@ -36,13 +36,13 @@ export default function Experience() {
                             <div className="align-items-center">
                                 <div className="bg-white w-100 rounded-3  ps-5 pt-2 pb-1 my-2 text-dark slideInBottom " >
                                     <h5>2022 - 2027</h5>
-                                    <h4>Bachelor au Masteres </h4>
+                                    <h4>Bachelor vers Masters </h4>
                                     <p>Paris Ynov Campus</p>
                                 </div>
                                 <div className="bg-white w-100 rounded-3  ps-5 pt-2 pb-1  my-2 text-dark slideInBottom">
                                     <h5>2020 - 2022</h5>
                                     <h4>Licence 1 & 2 Informatique</h4>
-                                    <p>ESGIS BENIN</p>
+                                    <p>ESGIS Bénin</p>
                                 </div>
 
                                 <div className="bg-white w-100 rounded-3 ps-5 pt-2 pb-1  my-2 text-dark slideInBottom">

@@ -14,7 +14,7 @@ export default function NavBar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
                         <Nav className="me-auto ">
-                            <Nav.Link className=' text-white' href="/">Acceuil</Nav.Link>
+                            <Nav.Link className=' text-white' href="/">Accueil</Nav.Link>
                             <Nav.Link className='text-white ' href="/apropos">A propos</Nav.Link>
                             <Nav.Link className='text-white' href="/portfolio">Portfolio</Nav.Link>
                             {/* <Nav.Link href="/contact">Contact</Nav.Link> */}

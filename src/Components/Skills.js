@@ -7,13 +7,13 @@ export default function Skills() {
                 <h1>SKILLS</h1>
                 <div className="d-flex justify-content-between"><div className="border-bottom border-primary w-25"></div><div className="border-bottom border-primary w-25"></div></div>
                 <p className="mx-5 slide-in-left">
-                    Voici quelque technologies utilisés dans le cadre d'une prise de connaissance ou d'une amélioration de mes connaissances
+                    Voici quelques technologies utilisées dans le cadre d'une montée en compétences ou d'une amélioration de mes connaissances
                 </p>
             </div>
             <Carousel className='carousel slide carousel-fade ' data-bs-ride="carousel">
                 <Carousel.Item className='d-flex justify-content-around ' data-bs-interval="50">
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/html5.png" alt='html' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/html5.png" alt='html' />
                         <Card.Body>
                             <Card.Title>99%</Card.Title>
                             <Card.Text>
@@ -23,7 +23,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/css.png" alt='css' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/css.png" alt='css' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -34,7 +34,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/javascript.png" alt='javascript' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/javascript.png" alt='javascript' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -45,7 +45,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/php.png" alt='PHP' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/php.png" alt='PHP' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -58,7 +58,7 @@ export default function Skills() {
                 </Carousel.Item>
                 <Carousel.Item className='d-flex justify-content-around ' data-bs-interval="100">
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/tailwind.png" alt='tailwind' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/tailwind.png" alt='tailwind' />
                         <Card.Body>
                             <Card.Title>80%</Card.Title>
                             <Card.Text>
@@ -68,7 +68,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/bootstrap.png" alt='bootstrap' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/bootstrap.png" alt='bootstrap' />
                         <Card.Body>
 
                             <Card.Title>95%</Card.Title>
@@ -79,7 +79,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/express-js.png" alt='Express' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/express-js.png" alt='Express' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -90,20 +90,20 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/laravel.png" alt='Laravel' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/laravel.png" alt='Laravel' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
                             <Card.Text>
-                                laravel
+                                Laravel
                             </Card.Text>
 
                         </Card.Body>
                     </Card>
                 </Carousel.Item>
-                <Carousel.Item className='d-flex justify-content-around ' data-bs-interval="150">
+                <Carousel.Item className='d-flex justify-content-around' data-bs-interval="150">
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/sql.png" alt='SQL' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/sql.png" alt='SQL' />
                         <Card.Body>
                             <Card.Title>95%</Card.Title>
                             <Card.Text>
@@ -113,18 +113,18 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/wordpress.png" alt='Wordpress' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/wordpress.png" alt='Wordpress' />
                         <Card.Body>
 
                             <Card.Title>89%</Card.Title>
                             <Card.Text>
-                                Wordpress
+                                WordPress
                             </Card.Text>
 
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/Elementor.png" alt='Elementor' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/Elementor.png" alt='Elementor' />
                         <Card.Body>
 
                             <Card.Title>99%</Card.Title>
@@ -135,7 +135,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/Contact_7.png" alt='contact_7' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/Contact_7.png" alt='contact_7' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -149,7 +149,7 @@ export default function Skills() {
                 </Carousel.Item>
                 <Carousel.Item className='d-flex justify-content-around ' data-bs-interval="150">
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/slider.webp" alt='slider' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/slider.webp" alt='slider' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -160,7 +160,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/sass.png" alt='SASS' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/sass.png" alt='SASS' />
                         <Card.Body>
 
                             <Card.Title>95%</Card.Title>
@@ -171,7 +171,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/node-js.png" alt='node' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/node-js.png" alt='node' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -182,7 +182,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/angular.png" alt='Angular' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/angular.png" alt='Angular' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -195,7 +195,7 @@ export default function Skills() {
                 </Carousel.Item>
                 <Carousel.Item className='d-flex justify-content-around ' data-bs-interval="150">
                     <Card style={{ width: '8rem' }} className='text-center'>
-                        <Card.Img variant="top" className='logo2' src="/assets/Go.png" alt='golang' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/Go.png" alt='golang' />
                         <Card.Body>
 
                             <Card.Title>80%</Card.Title>
@@ -206,7 +206,7 @@ export default function Skills() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '8rem' }} className='text-center '>
-                        <Card.Img variant="top" className='logo2' src="/assets/python.png" alt='python' />
+                        <Card.Img variant="top" className='img-fluid' src="/assets/python.png" alt='python' />
                         <Card.Body>
 
                             <Card.Title>90%</Card.Title>
@@ -215,7 +215,29 @@ export default function Skills() {
                             </Card.Text>
 
                         </Card.Body>
-                    </Card> 
+                    </Card>
+                    <Card style={{ width: '8rem' }} className='text-center '>
+                        <Card.Img variant="top" className='img-fluid' src="/assets/ant.png" alt='AntDesign' />
+                        <Card.Body>
+
+                            <Card.Title>82%</Card.Title>
+                            <Card.Text>
+                                Ant Design
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '8rem' }} className='text-center '>
+                        <Card.Img variant="top" className='img-fluid' src="/assets/next.png" alt='NextJs' />
+                        <Card.Body>
+
+                            <Card.Title>80%</Card.Title>
+                            <Card.Text>
+                                Next.js
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
                 </Carousel.Item>
 
             </Carousel>

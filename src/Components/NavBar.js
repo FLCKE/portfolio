@@ -1,7 +1,7 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 export default function NavBar() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary Navbar  justify-content-between" sticky="top">
+        <Navbar expand="lg" className="bg-body-tertiary Navbar  justify-content-between" >
             <Container >
                 <div>
                     <Navbar.Brand href="/" className='text-white logoText'>

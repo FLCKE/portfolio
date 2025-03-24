@@ -11,14 +11,14 @@ import Skills from '../Components/Skills';
 import Footer from '../Components/Footer';
 export default function Home() {
     return (
-            <div className="App">
+        <>
             <NavBar />
             <Banner />
             <WorkProcess limit={4} />
             <Experience />
             <Skills />
             <Footer />
-        </div>
+        </>
     );
 }
 

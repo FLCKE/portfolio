@@ -10,17 +10,26 @@ import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import Propos from './pages/a-propos';
 import Contact from './pages/contact';
+import { Helmet } from "react-helmet-async";
+import NavBar from './Components/NavBar';
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/apropos" element={<Propos />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-       
-      </Routes>
-    </Router>
+    <>
+      <Helmet>
+        <title>Portfolio de Louis Francisco</title>
+        <meta name="description" content="Portfolio de Louis Francisco" />
+        <link rel="icon" href="/favicon.ico" />
+      </Helmet>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/apropos" element={<Propos />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+
+        </Routes>
+      </Router>
+    </>
   );
 }
 

@@ -7,7 +7,7 @@ export default function Footer() {
             <div>
                 <ul className="nav justify-content-center ">
                     <li className="nav-item"><a href="/apropos" className="nav-link text-white">A propos</a></li>
-                    <li className="nav-item"><a href="" className="nav-link text-white">Services</a></li>
+                    <li className="nav-item"><a href="/portfolio" className="nav-link text-white">Portfolio</a></li>
                     {/* <li className="nav-item"><a href="/portfolio" className="nav-link text-dark" >Portfolio</a></li> */}
                     <li className="nav-item"><a href="/contact" className="nav-link text-white">Contact</a> </li>
                 </ul>

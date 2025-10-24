@@ -13,9 +13,9 @@ export default function Experience() {
                             </div>
                             <div>
                                 <div className="bg-white w-100 rounded-3 ps-5 pt-2 pb-1  my-2 text-dark slideInBottom">
-                                    <h5>03/2025 - 06/2025</h5>
+                                    <h5>07/2025 - 08/2025</h5>
                                     <h4>Développeur Full-Stack</h4>
-                                    <p>Direction générale du budget Bénin (stage)</p>
+                                    <p>Trust Provider Consulting</p>
                                 </div>
                                 <div className="bg-white  w-100 rounded-3  ps-5 pt-2 pb-1  my-2 text-dark slideInBottom">
                                     <h5>12/2024 - 02/2025</h5>

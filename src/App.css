@@ -108,7 +108,7 @@ Nav.Link:hover {
 }
 
 .process-item {
-  background-color: rgb(9 135 183 / 65%);
+  background-color: #bcc1ca5c;
   z-index: 1;
 }
 
@@ -145,7 +145,7 @@ Nav.Link:hover {
 }
 
 .desc button {
-  background-color: rgb(9 135 183 / 85%);
+  background-color: #0b5ed7;
   color: white;
   border: white 1px solid;
   width: 90%;

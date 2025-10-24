@@ -12,6 +12,11 @@ import Propos from './pages/a-propos';
 import Contact from './pages/contact';
 import { Helmet } from "react-helmet-async";
 import NavBar from './Components/NavBar';
+import ProtectedRoute from './config/ProtectedRoutes';
+import LoginPage from './pages/login';
+import ProjectForm from './pages/ProjectForms';
+import ProjectList from './pages/ProjectList';
+import Dashbord from './pages/dashbord';
 function App() {
   return (
     <>
@@ -26,6 +31,17 @@ function App() {
           <Route path="/apropos" element={<Propos />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route element={<ProtectedRoute />}>
+            <Route path="/add-project" element={
+              <ProjectForm />} />
+            <Route path="/list-project" element={
+              <ProjectList />} />
+            <Route path="/dashboard" element={
+              <Dashbord />} />
+
+          </Route>
+
 
         </Routes>
       </Router>

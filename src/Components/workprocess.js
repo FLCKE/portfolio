@@ -126,7 +126,7 @@ export default function WorkProcess({ limit, mine = false, query = "", onlyFeatu
                                                 style={{ objectFit: "cover", width: "100%", maxHeight: 280 }} />
                                         </div>
                                         <div className="desc ">
-                                            <button onClick={() => window.open(project.link)} className="btn btn-primary rounded-bottom-4">
+                                            <button onClick={() => window.open(project.repoUrl)} className="btn btn-primary rounded-bottom-4">
                                                 <Stack className=" slide-in-right" direction="row"
                                                     spacing={2}
                                                 >

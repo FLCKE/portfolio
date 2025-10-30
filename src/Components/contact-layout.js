@@ -76,7 +76,7 @@ export default function ContactLayout() {
                             </div>
                         </form>
                     </Col>
-                    <Col md="5" className="contactBg text-white p-5 " >
+                    <Col md="5" className="contactBg text-white p-5 d-none  d-md-block" >
                         <div>
                             <Stack className="my-3 slide-in-right" direction="row"
                                 spacing={2}

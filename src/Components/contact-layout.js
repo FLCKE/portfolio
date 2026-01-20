@@ -42,32 +42,36 @@ export default function ContactLayout() {
         <section>
 
             <Container>
-                <Row className="mt-2 mb-5 slideInBottom ">
+                <Row className="my-5 slideInBottom ">
+                    <div className="mb-5 w-100 text-center">
+                        <h1 className="text-center mb-4">Contactez-moi</h1>
+                        <div className="d-flex justify-content-between"><div className="border-bottom border-primary w-25"></div><div className="border-bottom border-primary w-25"></div></div>
+                    </div>
                     <Col md="7" className="bg-light p-3 border">
                         <form onSubmit={sendEmail}>
                             <Row className="my-3 g-3">
                                 <Col md="6">
-                                    <input type="text" className="form-control" placeholder="Nom (Obligatoire)" name="senderName" id="name" 
+                                    <input type="text" className="form-control" placeholder="Nom (Obligatoire)" name="senderName" id="name"
                                         onChange={handleChange} required />
                                 </Col>
                                 <Col md="6">
-                                    <input type="text" className="form-control" placeholder="Prénom (Obligatoire)" name="senderFirstname" id="fisrtName" 
+                                    <input type="text" className="form-control" placeholder="Prénom (Obligatoire)" name="senderFirstname" id="fisrtName"
                                         onChange={handleChange} required />
                                 </Col>
 
                             </Row>
                             <Row className="mb-3 g-3">
                                 <Col md="6">
-                                    <input type="text" className="form-control" placeholder="Email (Obligatoire)" name="senderEmail" id="email" 
+                                    <input type="text" className="form-control" placeholder="Email (Obligatoire)" name="senderEmail" id="email"
                                         onChange={handleChange} required />
                                 </Col>
                                 <Col md="6">
-                                    <input type="text" className="form-control" placeholder="Numéro " name="senderNumber" id="number" 
+                                    <input type="text" className="form-control" placeholder="Numéro " name="senderNumber" id="number"
                                         onChange={handleChange} />
                                 </Col>
 
                             </Row >
-                            <textarea placeholder="Message (Obligatoire)" className="w-100 mb-3 form-control" name="senderMessage" id="message" 
+                            <textarea placeholder="Message (Obligatoire)" className="w-100 mb-3 form-control" name="senderMessage" id="message"
                                 onChange={handleChange} required />
                             <div className="text-center my-5">
                                 <button className="btn contactBtnBg w-50 fw-medium border-0" type="submit">

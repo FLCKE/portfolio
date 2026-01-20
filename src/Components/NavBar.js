@@ -15,7 +15,7 @@ export default function NavBar() {
         }, []);
 
     return (
-        <Navbar expand="lg" className={`${path==="home"?"bg-transparent border-bottom   border-opacity-75":"bg-body-tertiary  Navbar"}  justify-content-between`} >
+        <Navbar expand="lg" className={`${path==="home" || path==="apropos" || path==="portfolio" ?"bg-transparent border-bottom   border-opacity-75":"bg-body-tertiary  Navbar"}  justify-content-between`} >
             <Container >
                 <div>
                     <Navbar.Brand href="/" className='text-white logoText fs-6'>

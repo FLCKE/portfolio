@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import NavBar from "./NavBar";
+import SwitchText from "./SwitchText";
 
 export default function Banner() {
 
@@ -14,10 +15,9 @@ export default function Banner() {
                     </Col>
                     <Col className="align-text-bottom text-sm-start text-center order-sm-1">
                         <h3 className="slide-in-left fs-sm-6">Kenett <span className="text-colored">FRANCISCO </span></h3>
-                        <h1 className="slide-in-left title"> Developpeur web <span className="text-colored">Full stack</span> </h1>
+                        <SwitchText text1="Développeur Web" span1="Full-Stack" text2="Data " span2="Engineer" interval={4000} />
                         <p className="slideInBottom fs-sm-6 subtitle">
-                            Passionné par le web et les nouvelles technologies, je conçois des applications modernes et performantes grâce à une solide expertise en Front-End (HTML, CSS, JavaScript…) et Back-End (PHP, TypeScript, Golang, Python…)
-                        </p>
+                        Étudiant en Master Data et développeur full-stack, je combine développement web et ingénierie des données pour créer des applications performantes, intelligentes et orientées décision.                        </p>
                         <div className="slideInBottom fs-sm-6">
                             <a href="/Moncv.pdf" className="rounded-5  fs-md-4 px-md-4 px-2 slideInLeft bannerBtn ">Télécharger CV
                                 <i className="bi bi-download mx-2 lideInLeft"></i>

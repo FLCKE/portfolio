@@ -31,8 +31,13 @@
 }
 
 .bannerClass {
-  background: white;
-  color: #012553;
+ height: 60vh;
+ background:
+  linear-gradient(45deg, rgb(7, 0, 133), rgba(0, 0, 195, 0.797), rgba(0,212,255,0.7)),
+  url("/public/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
 }
 
 .bannerV1 {

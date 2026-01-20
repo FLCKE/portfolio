@@ -12,7 +12,6 @@ export default function Contact() {
     return (
         <div >
             <NavBar />
-            <BannerV2 />
             <ContactLayout />
             <Footer/>
         </div>

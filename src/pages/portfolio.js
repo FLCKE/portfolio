@@ -10,7 +10,6 @@ import BannerV2 from '../Components/banner2';
 export default function Portfolio() {
     return (
         <div >
-            <NavBar />
             <BannerV2/>
             <WorkProcess limit={30}/>
             

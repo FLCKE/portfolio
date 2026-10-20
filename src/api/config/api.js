@@ -1,7 +1,7 @@
 import axios from "axios";
 const axiosClient = axios.create({
     baseURL:
-        process.env.REACT_APP_API_BASE_URL || "https://backendportfolio-c5x0.onrender.com/" ,
+        process.env.REACT_APP_API_BASE_URL || "https://backend-portfolio-seven-plum.vercel.app" ,
     withCredentials: false, // Passe à true si tu utilises des cookies sécurisés
 });
 
